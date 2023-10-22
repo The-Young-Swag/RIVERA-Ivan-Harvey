@@ -3,28 +3,34 @@
   padding: 0;
   font-family: sans-serif;
 }
-	:root{
-		--color-one: linear-gradient(to right, #dd5e89 , #f7bb97); /*Background Color*/
-		--color-two: linear-gradient(to left,#aa076b  , #61045f); /*autoType Color*/
-		--color-three: #000000; /*Text Color*/
-    --color-four: linear-gradient(to left, #f4c282 , #ef629f); /*Background Color*/
-    --color-five: linear-gradient(to left,#ff9966, #ff5e62); /*autoType Color*/
-		
-		--SVG-color-one: #c33764  ;
-		--SVG-color-two:#61045f ;
-		
-	}
-	
-	.dark-theme{
-		--color-one: linear-gradient(to right, #141e30, #243b55); /*Background Color*/
-		--color-two: linear-gradient(to left,#ff9966, #ff5e62); /*autoType Color*/
-		--color-three: #fff; /*Text Color*/
-		--color-four: linear-gradient(to left, #243b55, #141e30, #253758); /*Background Color*/
-    --color-five: linear-gradient(to right, #141e30, #243b55); /*autoType Color*/
+:root {
+  --color-one: linear-gradient(to right, #dd5e89, #f7bb97); /*Background Color*/
+  --color-two: linear-gradient(to left, #aa076b, #61045f); /*autoType Color*/
+  --color-three: #000000; /*Text Color*/
+  --color-four: linear-gradient(to left, #f4c282, #ef629f); /*Background Color*/
+  --color-five: linear-gradient(to left, #ff9966, #ff5e62); /*autoType Color*/
 
-		--SVG-color-one: #185a9d;
-		--SVG-color-two:#43cea2 ;
-	}
+  
+  --text-shadow: 2px 2px 4px rgba(220, 220, 220, 0.799); /* Dark text shadow */
+  
+  --SVG-color-one: #c33764;
+  --SVG-color-two: #61045f;
+}
+
+.dark-theme {
+  --color-one: linear-gradient(to right, #141e30, #243b55); /*Background Color*/
+  --color-two: linear-gradient(to left, #ff9966, #ff5e62); /*autoType Color*/
+  --color-three: #fff; /*Text Color*/
+  --color-four: linear-gradient(to left, #243b55, #141e30, #253758); /*Background Color*/
+  --color-five: linear-gradient(to right, #141e30, #243b55); /*autoType Color*/
+
+  --text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Light text shadow */
+  
+
+  --SVG-color-one: #185a9d;
+  --SVG-color-two: #43cea2;
+}
+
 
 .main {
   width: 100%;
@@ -124,14 +130,16 @@ svg {
 
 .user_title h2 {
   font-size: 15px;
+  color: var(--color-three);
   font-weight: 600;
   margin-right:25px;
   white-space: nowrap;
+  
 }
 
 .user_title img{
 	width: 45px;
-	filter: brightness(0) invert(1);
+	/*filter: brightness(0) invert(1);*/
 	
 }
 
@@ -152,13 +160,14 @@ svg {
 .side-nav ul li img {
   width: 30px;
   margin-right: 10px;
-  filter: brightness(0) invert(1);
+  /*filter: brightness(0) invert(1);*/
 }
 
 .side-nav ul li span {
   white-space: nowrap;
+  color: var(--color-three);
   display: none;
-  text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: var(--text-shadow);
 }
 
 
