@@ -11,7 +11,7 @@
   --color-five: linear-gradient(to left, #ff9966, #ff5e62); /*autoType Color*/
 
   
-  --text-shadow: 2px 2px 4px rgba(220, 220, 220, 0.799); /* Dark text shadow */
+  --text-shadow: 2px 2px 4px rgba(220, 220, 220, 0); /* Dark text shadow */
   
   --SVG-color-one: #c33764;
   --SVG-color-two: #61045f;
