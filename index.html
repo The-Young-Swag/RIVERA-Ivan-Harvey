@@ -147,7 +147,13 @@
 		}
 		
 		</script>
-		
+		<script>
+  document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+    alert("Right-click has been disabled on this page.");
+  });
+</script>
+
 
 	</body>
 </html>
