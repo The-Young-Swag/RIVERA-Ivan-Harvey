@@ -7,8 +7,8 @@
   --color-one: linear-gradient(to right, #dd5e89, #f7bb97); /*Background Color*/
   --color-two: linear-gradient(to left, #aa076b, #61045f); /*autoType Color*/
   --color-three: #000000; /*Text Color*/
-  --color-four: linear-gradient(to left, #f4c282, #ef629f); /*Background Color*/
-  --color-five: linear-gradient(to left, #ff9966, #ff5e62); /*autoType Color*/
+  --color-four: radial-gradient(circle, #f4b766, #ef629f); /*Background Color*/
+  --color-five: linear-gradient(#ff5e62,#ff9966); /*autoType Color*/
 
   
   --text-shadow: 2px 2px 4px rgba(220, 220, 220, 0); /* Dark text shadow */
@@ -21,8 +21,8 @@
   --color-one: linear-gradient(to right, #141e30, #243b55); /*Background Color*/
   --color-two: linear-gradient(to left, #ff9966, #ff5e62); /*autoType Color*/
   --color-three: #fff; /*Text Color*/
-  --color-four: linear-gradient(to left, #243b55, #141e30, #253758); /*Background Color*/
-  --color-five: linear-gradient(to right, #141e30, #243b55); /*autoType Color*/
+  --color-four: linear-gradient(#243b55, #253758, #141e30); /*Background Color*/
+  --color-five: linear-gradient(#243b55, #1e2f47, #18243a, #141e30);  /*autoType Color*/
 
   --text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Light text shadow */
   
